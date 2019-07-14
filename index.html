@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+        <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="jumbotron">
+                <h1 class="text-center" style=" font-family: 'Squada One', cursive;">Guess what letter I'm thinking of</h1>
+        </div>
+        <div class="container ">
+                <div class="row">
+                    <div class="col-md-6" style="display:flex; justify-content: center;">
+                        <img src="assets/images/pokemon.png" width="250" height="250"> 
+                    </div>
+                    <div class="col-md-6">
+                        <p>Wins: <span id="wins"></span></p>
+                        <p>Losses: <span id="losses"></span></p>
+                        <p>Guess Left: <span id="GuessLeft"></span></p>
+                        <p>Your Guesses so far:  <span id="gsf"></span></p>
+                        
+                    </div>
+                    
+                </div>
+        </div>
+        <footer class="page-footer font-small">
+                <div class="footer-copyright text-center py-3">
+                    ©Copyright: Guillermo Lara
+                </div>
+        </footer>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>
