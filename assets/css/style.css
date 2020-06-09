@@ -3,6 +3,7 @@ body{
 }
 .header{
     background-color: #593196;
+    color: #ffffff;
 }
 .page-footer{
     position: fixed;
@@ -11,18 +12,20 @@ body{
     width: 100%;
     color: #ffffff;
     background: #593196;
-}
-.result-content{
     
-
 }
+
 
 @media only screen and (max-width: 767px) {
     .result-content {
-      
-      display: flex;
-      align-content: center;
-      width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        margin-bottom:70px;
+       
     }
     .result-content p {
         padding: 10px;
